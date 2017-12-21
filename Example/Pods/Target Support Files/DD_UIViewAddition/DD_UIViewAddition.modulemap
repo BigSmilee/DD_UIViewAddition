@@ -1,0 +1,6 @@
+framework module DD_UIViewAddition {
+  umbrella header "DD_UIViewAddition-umbrella.h"
+
+  export *
+  module * { export * }
+}
