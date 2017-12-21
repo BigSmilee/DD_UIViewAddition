@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DD_UIViewAddition_Example' do
+  pod 'DD_UIViewAddition', :path => '../'
+
+  target 'DD_UIViewAddition_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
